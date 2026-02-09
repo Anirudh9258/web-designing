@@ -1,2 +1,36 @@
-# web-designing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div style="display: grid;grid-template-columns: repeat(3,400px); gap: 20px; overflow-y: auto; height: 200px;">
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/35137958/pexels-photo-35137958.jpeg" width="100%" height="300px"
+        <p>image 1</p>
+    </div>
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/29783124/pexels-photo-29783124.jpeg" width="100%" height="300px"
+        <p>image 2</p>
+    </div>
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/27903774/pexels-photo-27903774.jpeg" width="100%" height="300px"
+        <p>image 3</p>
+    </div>
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/35260909/pexels-photo-35260909.jpeg" width="100%" height="300px"
+        <p>image 4</p>
+    </div>
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/32341029/pexels-photo-32341029.jpeg" width="100%" height="300px"
+        <p>image 5</p>
+    </div>
+    <div style="border: 2px solid gray; text-align: center;">
+        <img src="https://images.pexels.com/photos/35205659/pexels-photo-35205659.jpeg" width="100%" height="300px"
+        <p>image 6</p>
+    </div></div>
+
+</body>
+</html># web-designing
 HTML and CSS project
