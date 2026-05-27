@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Record</title>
+</head>
+<body>
+
+<h2>Employee Management System</h2>
+
+<button onclick="display()">Display Employees</button>
+<button onclick="filter()">Filter Salary > 50000</button>
+<button onclick="average()">Average Salary</button>
+
+<p id="output"></p>
+
+<script>
++
+// Array of objects (Employee records)
+let employees = [
+    {id: 1, name: "Anirudh", salary: 60000},
+    {id: 2, name: "Rahul", salary: 40000},
+    {id: 3, name: "Priya", salary: 70000},
+    {id: 4, name: "Amit", salary: 30000}
+];
+
+// Display all employees
+function display() {
+    let result = "";
+    employees.forEach(emp => {
+        result += `ID: ${emp.id}, Name: ${emp.name}, Salary: ${emp.salary} <br>`;
+    });
+    document.getElementById("output").innerHTML = result;
+}
+
+// Filter employees (salary > 50000)
+function filter() {
+    let result = "";
+    let filtered = employees.filter(emp => emp.salary > 50000);
+
+    filtered.forEach(emp => {
+        result += `ID: ${emp.id}, Name: ${emp.name}, Salary: ${emp.salary} <br>`;
+    });
+
+    document.getElementById("output").innerHTML = result;
+}
+
+// Calculate average salary
+function average() {
+    let total = 0;   
+
+    employees.forEach(emp => {
+        total += emp.salary;
+    });
+
+    let avg = total / employees.length;
+
+    document.getElementById("output").innerHTML = "Average Salary: " + avg;
+}
+
+</script>
+
+</body>
+</html>
