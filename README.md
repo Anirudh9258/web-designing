@@ -1,36 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body><div style="display: grid;grid-template-columns: repeat(3,400px); gap: 20px; overflow-y: auto; height: 200px;">
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/35137958/pexels-photo-35137958.jpeg" width="100%" height="300px"
-        <p>image 1</p>
-    </div>
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/29783124/pexels-photo-29783124.jpeg" width="100%" height="300px"
-        <p>image 2</p>
-    </div>
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/27903774/pexels-photo-27903774.jpeg" width="100%" height="300px"
-        <p>image 3</p>
-    </div>
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/35260909/pexels-photo-35260909.jpeg" width="100%" height="300px"
-        <p>image 4</p>
-    </div>
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/32341029/pexels-photo-32341029.jpeg" width="100%" height="300px"
-        <p>image 5</p>
-    </div>
-    <div style="border: 2px solid gray; text-align: center;">
-        <img src="https://images.pexels.com/photos/35205659/pexels-photo-35205659.jpeg" width="100%" height="300px"
-        <p>image 6</p>
-    </div></div>
+# React + Vite
 
-</body>
-</html># web-designing
-HTML and CSS project
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
