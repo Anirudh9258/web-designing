@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sum of N Numbers</title>
 </head>
 <body>
+
+    <h2>Sum of First N Natural Numbers</h2>
+
+    <label>Enter a number (N):</label>
+    <input type="number" id="num">
+    <button onclick="findSum()">Calculate</button>
+
+    <h3 id="result"></h3>
+
     <script>
+        function findSum() {
+            let n = parseInt(document.getElementById("num").value);
+            let sum = 0;
 
-       // var x="anirudh";
-        //var x="ram";
-        //var x="raj";
-        //console.log(x);
-        //let y=10;
-        //y=25;
-        //y=35;
-        //document.write(y);
-        const pi=3.14;
-        document.write(pi);
-        //var x=10;
-        //var x=15;
-        //var x=30;
-        //document.write(x);
+            for (let i = 1; i <= n; i++) {
+                sum = sum + i;
+            }
 
+            document.getElementById("result").innerHTML =
+                "Sum of first " + n + " numbers = " + sum;
+        }
     </script>
+
 </body>
 </html>
